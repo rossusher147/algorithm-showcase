@@ -1,3 +1,5 @@
+![Python Tests](https://github.com/rossusher147/algorithm-showcase/actions/workflows/python-tests.yml/badge.svg)
+
 # 🧠 Algorithm Showcase
 
 A curated repository of algorithm implementations designed to demonstrate clean code, testing, and software engineering discipline.  
