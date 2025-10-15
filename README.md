@@ -15,3 +15,17 @@ Includes time/space complexity, detailed comments, and CI-driven unit testing.
 - 💬 Clear inline documentation and explanations     
 
 ---
+
+## 🧪 Unit Testing & Continuous Integration
+
+This repository uses unit tests (via pytest) to verify the correctness of both implementations.
+ 
+### 🧱 CI Integration
+
+The Continuous Integration (CI) pipeline runs automatically on every push and pull request using GitHub Actions.
+It performs the following steps:
+
+🧩 Set up Python and install dependencies
+🧪 Run all unit tests
+🧹 Check code formatting and linting
+✅ Report test status directly on GitHub pull requests
