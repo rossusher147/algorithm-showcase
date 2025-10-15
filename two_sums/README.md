@@ -59,33 +59,3 @@ Therefore, the total time is linear in the size of the array.
 ### 💾 Space Complexity
 
 O(n) — In the worst case, all elements may be stored in the hash map before the pair is found.
-
----
-
-## 🧪 Unit Testing & Continuous Integration
-
-This repository uses unit tests (via pytest) to verify the correctness of both implementations.
-
-### 🧰 Test Coverage
-
-For the sorted version:
-
-    ✅ Correct indices returned for valid inputs
-    ✅ Handles edge cases (small arrays, negative numbers, duplicates)
-    ✅ Returns empty list or None if no pair exists
-
-For the unsorted version:
-
-    ✅ Correct handling of unordered input
-    ✅ Tests for repeated numbers
-    ✅ Ensures only one valid pair is returned
- 
-### 🧱 CI Integration
-
-The Continuous Integration (CI) pipeline runs automatically on every push and pull request using GitHub Actions.
-It performs the following steps:
-
-🧩 Set up Python and install dependencies
-🧪 Run all unit tests
-🧹 Check code formatting and linting
-✅ Report test status directly on GitHub pull requests
