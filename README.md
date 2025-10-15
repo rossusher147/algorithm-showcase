@@ -25,7 +25,7 @@ This repository uses unit tests (via pytest) to verify the correctness of both i
 The Continuous Integration (CI) pipeline runs automatically on every push and pull request using GitHub Actions.
 It performs the following steps:
 
-🧩 Set up Python and install dependencies
-🧪 Run all unit tests
-🧹 Check code formatting and linting
-✅ Report test status directly on GitHub pull requests
+- 🧩 Set up Python and install dependencies
+- 🧪 Run all unit tests
+- 🧹 Check code formatting and linting
+- ✅ Report test status directly on GitHub pull requests
